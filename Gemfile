@@ -11,7 +11,7 @@ gem 'bundler', '>= 1.5.0'
 
 gem 'protected_attributes', '~>1.0.7'
 
-gem 'rails', '4.1.0'
+gem 'rails', '4.1.1'
 
 case RUBY_PLATFORM
 when /freebsd/
@@ -48,6 +48,10 @@ gem 'uglifier', '>= 1.3.0'
 gem 'select2-rails', '~> 3.5.4'
 gem 'jquery-rails', '~> 3.1.0'
 gem 'ace-rails-ap', '~> 2.0.1'
+
+# Added by Raoul
+gem 'thin',                   '>= 1.5.1'
+gem 'newrelic_rpm'
 
 # geokit-rails doesn't work with geokit 1.8.X but it specifies ~> 1.5
 # in its own Gemfile.

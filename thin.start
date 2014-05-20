@@ -1,0 +1,2 @@
+#!/bin/bash
+thin start --port 9393 --daemonize --log log/thin.9393.log --pid tmp/pids/thin.9393.pid -R config.ru
