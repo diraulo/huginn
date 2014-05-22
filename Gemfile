@@ -38,7 +38,7 @@ gem 'delayed_job_active_record', '~> 4.0.0'
 gem 'daemons', '~> 1.1.9'
 
 # To enable DelayedJobWeb, see the 'Enable DelayedJobWeb' section of the README.
-# gem 'delayed_job_web'
+gem 'delayed_job_web'
 
 gem 'foreman', '~> 0.63.0'
 

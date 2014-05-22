@@ -36,7 +36,7 @@ Huginn::Application.routes.draw do
   post "/users/:user_id/webhooks/:agent_id/:secret" => "web_requests#handle_request" # legacy
 
 # To enable DelayedJobWeb, see the 'Enable DelayedJobWeb' section of the README.
-#  get "/delayed_job" => DelayedJobWeb, :anchor => false
+  get "/delayed_job" => DelayedJobWeb, :anchor => false
 
   devise_for :users, :sign_out_via => [ :post, :delete ]
 

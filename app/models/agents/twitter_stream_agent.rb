@@ -71,7 +71,7 @@ module Agents
     def default_options
       {
         'filters' => %w[keyword1 keyword2],
-        'expected_update_period_in_days' => "2",
+        'expected_update_period_in_days' => "1",
         'generate' => "events"
       }
     end
